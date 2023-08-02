@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ADD ADMIN</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	<div class="navbar">
+    <ul>
+        <img src="../assets/l.jpg" alt="logo">
+        <div class="back"><a href="adminDashboard.php">Back</a></div>  
+        <h1 class="title">ADD ADMIN</h1>     
+    </ul>
+    </div><br><br><br><br>
+
+	<form method="post" action=# enctype="multipart/form-data">
+		<div class="reg">
+			<h1>Add Admin</h1><hr>
+			<table>
+				<tr>
+					<td class="label">Name:</td>
+				</tr>
+				<tr>
+					<td ><input type="text" id="name" value=""></td>
+				</tr>
+				<tr>
+					<td class="label">User Name:</td>
+				</tr>
+				<tr>
+					<td ><input type="text" id="username" value=""></td>
+				</tr>
+				<tr>
+					<td class="label">Email:</td>
+				</tr>
+				<tr>
+					<td ><input type="Email" id="email" value=""></td>
+				</tr>
+				<tr>
+					<td class="label">Contact Number:</td>
+				</tr>
+				<tr>
+					<td ><input type="text" id="num" value=""></td>
+				</tr>
+				<tr>
+					<td class="label">Password:</td>
+				</tr>
+				<tr>
+					<td ><input type="password" id="password" value=""></td>
+				</tr>
+				<tr>
+					<td class="label">Confirm Password: </td>
+				</tr>
+				<tr>
+					<td><input type="password" id="Cpassword" value=""></td>
+				</tr>
+				<tr>
+					<td>
+						<input type="button" class="submit" value="ADD" onclick="verifyAdmin()">
+					</td>
+				</tr>
+			</table>
+	<center>
+	<div id="login"></div>
+    </center>
+	<script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>

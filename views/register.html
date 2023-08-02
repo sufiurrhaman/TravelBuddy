@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	<div class="navbar">
+	<ul>
+		<img src="../assets/l.jpg" alt="logo" >			
+		<li><a href="../index1.html">Home</a></li>
+    </ul>
+    </div>
+
+	<form method="post" action=# enctype="multipart/form-data">
+		<div class="reg">
+			<h1>REGISTER</h1>
+			<table width="400px" >
+				<tr>
+					<td class="label">Name:</td>
+				</tr>
+				<tr>
+					<td><input type="text" id="name" value=""></td>
+				</tr>
+				<tr>
+					<td class="label">User Name:</td>
+				</tr>
+				<tr>
+					<td><input type="text" id="username" value=""></td>
+				</tr>
+				<tr>
+					<td class="label">Email:</td>
+				</tr>
+				<tr>
+					<td><input type="Email" id="email" value=""></td>
+				</tr>
+				<tr>
+					<td class="label">Contact Number:</td>
+				</tr>
+				<tr>
+					<td><input type="text" id="num" value=""></td>
+				</tr>
+				<tr>
+					<td class="label">Password:</td>
+				</tr>
+				<tr>
+					<td><input type="password" id="password" value=""></td>
+				</tr>
+				<tr>
+					<td class="label">Confirm Password: </td>
+				</tr>
+				<tr>
+					<td><input type="password" id="Cpassword" value=""></td>
+				</tr>
+				<tr>
+					<td><input type="button" name="click" class="submit" value="SignUp" onclick="verify()"></td>
+				</tr>
+				<tr>
+					<td><br><br></td>
+				</tr>
+				<tr>
+					<td align="center">Already Have an Account?
+					<a href="login.html">Sign In</td>
+				</tr>
+			</table>
+		</div>
+	</form>
+	<center>
+	<div id="login" class="msg"></div>
+    </center>
+	<script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>
