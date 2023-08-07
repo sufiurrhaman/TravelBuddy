@@ -1,1 +1,1 @@
-# TravelBuddy
+# TravelBuddy (Travel Management System)
